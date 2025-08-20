@@ -5,7 +5,7 @@ git checkout -b new_branch
 
 # Create the "id.txt" file and add the lines
 echo "ID = 000000000" > id.txt
-echo "COURSE = CMPSC311" >> id.txt
+echo "COURSE = CMPSC311" >> ID.txt
 
 # Add the file to the staging area
 git add id.txt
