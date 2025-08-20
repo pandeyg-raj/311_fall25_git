@@ -21,4 +21,4 @@ cat id.txt
 # Switch back to the original branch 
 git checkout main  
 
-echo "Switched back to the 'main' branch 
+echo "Switched back to the 'main' branch" 
