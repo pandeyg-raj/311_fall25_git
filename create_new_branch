@@ -18,6 +18,9 @@ echo "Created and switched to branch 'new_branch'."
 echo "Contents of id.txt:"
 cat id.txt
 
+# Push the new branch to the remote repository
+git push origin new_branch
+
 # Switch back to the original branch 
 git checkout main  
 
