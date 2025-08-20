@@ -11,7 +11,7 @@ echo "COURSE = CMPSC311" >> ID.txt
 git add ID.txt
 
 # Commit the changes
-git commit -m "Add id.txt with ID=000000000"
+git commit -m "Add new ID and COURSE info"
 
 # Output the branch name and the file contents
 echo "Created and switched to branch 'new_branch'."
