@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Create and switch to a new branch named "new_branch"
+git checkout -b new_branch
+
+# Create the "id.txt" file and add the first line
+echo "as ID=000000000" > id.txt
+
+# Add the file to the staging area
+git add id.txt
+
+# Commit the changes
+git commit -m "Add id.txt with ID=000000000"
+
+# Output the branch name and the file contents
+echo "Created and switched to branch 'new_branch'."
+echo "Contents of id.txt:"
+cat id.txt
