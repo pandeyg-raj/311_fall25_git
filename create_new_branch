@@ -8,7 +8,7 @@ echo "ID = 000000000" > id.txt
 echo "COURSE = CMPSC311" >> ID.txt
 
 # Add the file to the staging area
-git add id.txt
+git add ID.txt
 
 # Commit the changes
 git commit -m "Add id.txt with ID=000000000"
