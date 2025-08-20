@@ -17,3 +17,8 @@ git commit -m "Add id.txt with ID=000000000"
 echo "Created and switched to branch 'new_branch'."
 echo "Contents of id.txt:"
 cat id.txt
+
+# Switch back to the original branch 
+git checkout main  
+
+echo "Switched back to the 'main' branch 
