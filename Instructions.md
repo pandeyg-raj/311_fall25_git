@@ -87,6 +87,7 @@ Follow the steps below carefully. Each step builds upon the previous one, so com
     ```
 
 ---
+<img src="images/branching.png" alt="Branching Example" width="400">
 
 ## Part 4: Merging Branches and Resolving Conflicts
 14. At this point, the `ID.txt` file is **different** on the `main` branch and `new_branch`.
