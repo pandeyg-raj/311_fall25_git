@@ -28,11 +28,11 @@ Follow the steps below carefully. Each step builds upon the previous one, so com
    Open and review the contents of `ID.txt` in the repository.
 
 5. **Run the script to create a new branch**  
-   - Execute the script `create_new_branch`.  
+   - Execute the script `./create_new_branch.sh`.  
    - This will automatically create a branch named `new_branch`.  
    - You may need to grant execution permission using:  
      ```bash
-     chmod +x create_new_branch
+     chmod +x create_new_branch.sh
      ```
 
 6. **Verify branch creation**  
@@ -61,7 +61,7 @@ Follow the steps below carefully. Each step builds upon the previous one, so com
    cat ID.txt
    ```  
    You should notice the contents are **different** from the `ID.txt` in the main branch.  
-   > *This is because the `create_new_branch` script modified it.*
+   > *This is because the `create_new_branch.sh` script modified it.*
 
 10. **Switch back to the main branch**  
     ```bash
