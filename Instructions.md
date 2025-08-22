@@ -76,7 +76,7 @@ Follow the steps below carefully. Each step builds upon the previous one, so com
     Ensure you are back on the `main` branch.
 
 12. **Modify `ID.txt` on the main branch**  
-    - Replace the placeholder text `place_your_psu_id_here`  
+    - Replace the placeholder text `psu_id`  
       with **your actual 9-digit PSU ID**.
 
 13. **Add, commit, and push the updated file**  
