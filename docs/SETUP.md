@@ -1,6 +1,6 @@
 # Setting up SSH Keys for GitHub
 
-This guide walks you through generating and configuring SSH keys so you can securely connect to GitHub without needing to enter your username and password each time.
+This guide walks you through generating and configuring SSH keys so you can securely connect to GitHub and work on assignments.
 
 ---
 
