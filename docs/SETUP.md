@@ -148,15 +148,6 @@ Then:
 
 ---
 
-## 5. Test your SSH connection
-Run:
-
-    ssh -T git@github.com
-
-If successful, you’ll see a message like:
-
-    Hi username! You've successfully authenticated, but GitHub does not provide shell access.
-
 ## ✅ Done!
 
 
