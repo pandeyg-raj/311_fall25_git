@@ -3,11 +3,21 @@
 Follow the steps below carefully. Each step builds upon the previous one, so complete them in order.
 
 ---
-## Part 1: Setting up SSH Keys for GitHub
+## Part 1: Setting up git and GitHub
 Before woking on assignment, you need to make sure git is configured properly. This should be one time task for rest of the course.
 This guide walks you through generating and configuring SSH keys so you can securely connect to GitHub and work on assignments.
 
 ---
+### 1. Signing Up
+
+To use GitHub, you first need to create an account. To do that, go to https://github.com, click on the Sign-Up button, and proceed to the registration form. Choose a proper username and remember your login credentials.
+NOTE: If you already have a Github account, you can skip this step. However, you cannot change your Github username throughout the semester.
+
+## 2. Installing git on Computer
+
+If you don't have git on your local machine, it will show an error message "unknown command" when you try the git command on your terminal. To install git on your local machine, follow the command:
+
+    $ sudo apt install git
 
 ## 1. Check for existing SSH keys
 Before creating a new SSH key, check if you already have one.
