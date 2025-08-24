@@ -3,6 +3,70 @@
 Follow the steps below carefully. Each step builds upon the previous one, so complete them in order.
 
 ---
+## Part 1: Setting up SSH Keys for GitHub
+Before woking on assignment, you need to make sure git is configured properly. This should be one time task for rest of the course.
+This guide walks you through generating and configuring SSH keys so you can securely connect to GitHub and work on assignments.
+
+---
+
+## 1. Check for existing SSH keys
+Before creating a new SSH key, check if you already have one.
+
+    ls -al ~/.ssh
+
+Look for files named:
+
+- id_rsa.pub, id_ed25519.pub, or similar (.pub means it’s the public key).
+
+If you already have a key you want to use, skip to Step 3.
+
+---
+
+## 2. Generate a new SSH key
+Run the following command (replace your email with the one linked to your GitHub account):
+
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+When prompted:
+- Press Enter to accept the default file location.
+- Optionally, enter a passphrase for extra security.
+
+---
+
+## 3. Add your SSH key to the SSH agent
+Start the SSH agent in the background:
+
+    eval "$(ssh-agent -s)"
+
+Add your key to the agent:
+
+    ssh-add ~/.ssh/id_ed25519
+
+(Replace with your key filename if different, e.g., id_rsa.)
+
+---
+
+## 4. Add the SSH key to your GitHub account
+Copy the public key to your clipboard:
+
+    cat ~/.ssh/id_ed25519.pub
+
+- On macOS:  
+      pbcopy < ~/.ssh/id_ed25519.pub  
+- On Windows (Git Bash):  
+      clip < ~/.ssh/id_ed25519.pub  
+
+Then:
+
+1. Go to https://github.com/settings/keys
+2. Click "New SSH Key".
+3. Paste the key into the Key field.
+4. Give it a descriptive Title.
+5. Click "Add SSH key".
+
+---
+
+## ✅ Done!
 
 ## Part 2: Initial Setup
 1. **Clone the repository**  
