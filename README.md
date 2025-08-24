@@ -86,34 +86,6 @@ Follow the steps below carefully. Each step builds upon the previous one, so com
     git push
     ```
 
----
-<img src="images/branching.png" alt="Branching Example">
-
-## Part 4: Merging Branches and Resolving Conflicts
-14. At this point, the `ID.txt` file is **different** on the `main` branch and `new_branch`.
-
-15. **Attempt to merge `new_branch` into `main`**  
-    ```bash
-    git merge new_branch
-    ```
-
-16. **Observe the merge conflict**  
-    Since the two branches have different versions of `ID.txt`, Git will report a merge conflict.
-
-17. **Resolve the merge conflict in `ID.txt`**  
-    - Keep your **real PSU ID** from the `main` branch’s `ID.txt`.  
-    - Keep the **course name** from the `new_branch`’s `ID.txt`.  
-    - Save the final merged file.
-
-18. **Finalize the merge**  
-    ```bash
-    git add ID.txt
-    git commit -m "Resolve merge conflict in ID.txt"
-    git push
-    ```
-
----
-
 ## Final Deliverable
 At the end of this assignment:
 - The repository should contain:
