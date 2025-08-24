@@ -20,10 +20,6 @@ If you already have a key you want to use, skip to Step 3.
 ## 2. Generate a new SSH key
 Run the following command (replace your email with the one linked to your GitHub account):
 
-    ssh-keygen -t ed25519 -C "your_email@example.com"
-
-If your system does not support Ed25519, use RSA:
-
     ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 When prompted:
