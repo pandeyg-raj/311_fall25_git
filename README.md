@@ -108,13 +108,15 @@ Before starting part to make sure you have completed Part 1. Once the assignment
     ```bash
     git add ID.txt
     git commit -m "Update ID.txt with PSU ID"
-    git push
+    git push origin
     ```
     NOTE: Any time you make changes to *ID.txt*, you have to repeat step 6
    
 ## Final Deliverable
+how to get commit id .
+
 At the end of this assignment:
 - The repository should contain:
   - `name.txt` with your name.  
-  - A merged version of `ID.txt` containing **both your PSU ID and the course name**.  
+  - `ID.txt` containing **your actual details**.  
 - All changes must be committed and pushed to the repository.
