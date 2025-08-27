@@ -49,6 +49,7 @@ Run the following command (replace your email with the one linked to your GitHub
 
 When prompted:
 - Press Enter to accept the default answers.
+- NOTE:When you create the ssh key pair the output will contain a line: Your public key has been saved in /home/cmpsc31/.ssh/testKey.pub. This .pub file the one the you have to open and copy its content on GitHub.com. It also shows you the   path where the .pub file is stored.
   
 ---
 ### 5. Add the SSH key to your GitHub account
@@ -64,6 +65,8 @@ Then:
 5. Click "Add SSH key".
 
 ---
+Refer to following link for troubleshooting guide
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 ## ✅ Done!
 
