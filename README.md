@@ -101,7 +101,7 @@ Before starting part to make sure you have completed Part 1. Once the assignment
 
 ---
 
-5. **Modify `ID.txt` on the main branch**  
+5. **Modify `ID.txt` file**  
     - Replace the placeholder text in file with actual details  
 
 6. **Add, commit, and push the updated file**  
