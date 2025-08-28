@@ -111,12 +111,23 @@ Before starting part to make sure you have completed Part 1. Once the assignment
     git push origin
     ```
     NOTE: Any time you make changes to *ID.txt*, you have to repeat step 6
+
+7. Commit id
+   In Git, each commit has a unique identifier called a "commit ID" (or SHA-1 hash). This ID helps you reference specific commits. To get the latest commit ID, follow these steps:
    
+       git log -1 --pretty=format:"%H"
+
+   - git log: Shows the commit history.
+
+   - -1: Limits the output to only the most recent commit.
+
+   - --pretty=format:"%H": Displays the full commit hash.
+      
 ## Final Deliverable
-how to get commit id .
 
 At the end of this assignment:
 - The repository should contain:
   - `name.txt` with your name.  
   - `ID.txt` containing **your actual details**.  
 - All changes must be committed and pushed to the repository.
+You need to submit the latest commit id. See step 7 for details on how to get latest commit id.
